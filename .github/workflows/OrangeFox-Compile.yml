@@ -20,7 +20,7 @@ on:
       DEVICE_TREE:
         description: 'OrangeFox Device Tree'
         required: true
-        default: 'https://github.com/ymdzq/OFRP-device_xiaomi_mondrian'
+        default: 'https://github.com/mostafameesr1/mostafameesr1-android_device_xiaomi_sweet-TWRP'
       DEVICE_TREE_BRANCH:
         description: 'OrangeFox Device Tree Branch'
         required: true
@@ -28,11 +28,11 @@ on:
       DEVICE_PATH:
         description: 'Specify your Device Path'
         required: true
-        default: 'device/xiaomi/mondrian'
+        default: 'device/xiaomi/sweet'
       DEVICE_NAME:
         description: 'Specify your Device Codename'
         required: true
-        default: 'mondrian'
+        default: 'sweet'
       BUILD_TARGET:
         description: 'Specify your Build Target'
         required: true
