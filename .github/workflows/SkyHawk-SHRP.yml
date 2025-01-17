@@ -20,7 +20,7 @@ on:
       DEVICE_TREE:
         description: 'Custom Recovery Tree' # Your already made Device Tree for TWRP
         required: true
-        default: 'https://github.com/mlm-games/twrp_lenovo_7305x_m7_mt8765_P' 
+        default: 'https://github.com/mostafameesr1/android_device_xiaomi_sweet-TWRP' 
       DEVICE_TREE_BRANCH:
         description: 'Custom Recovery Tree Branch' # Your Device Tree Branch, make sure it's right.
         required: true
