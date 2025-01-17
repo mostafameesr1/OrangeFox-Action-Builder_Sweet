@@ -14,15 +14,15 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/ADITHY4N/recovery_device_xiaomi_sky.git'
+        default: 'https://github.com/mostafameesr1/android_device_xiaomi_sweet-TWRP'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'Pbrp'
+        default: 'pbrp_12.1'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/xiaomi/sky'
+        default: 'device/xiaomi/sweet'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -32,11 +32,11 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'sky'
+        default: 'sweet'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_sky'
+        default: 'twrp_sweet'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
